@@ -24,6 +24,7 @@ const BlogList = () => {
       <Link to="/new" style={{ fontSize: "25px" }}>
         Create New Blog
       </Link>
+
       <div>
         <div className=" blog-list">
           {blogs.map((blog) => (
@@ -31,7 +32,7 @@ const BlogList = () => {
               <h3>{blog.title}</h3>
               <p style={{ fontSize: "20px" }}>{blog.content}</p>
               <Link to={`/edit/${blog._id}`} style={{ color: "red" }}>
-                Edit
+                <button style={{ backgroundColor: "red" }}> Edit</button>
               </Link>
               <button onClick={() => deleteBlog(blog._id)}>Delete</button>
             </div>
