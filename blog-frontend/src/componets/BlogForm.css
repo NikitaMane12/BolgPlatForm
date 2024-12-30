@@ -1,0 +1,29 @@
+.Form-container {
+  width: 100%;
+  height: 100%;
+  background-image: url("https://tse1.mm.bing.net/th?id=OIP.LJg59LWYsRN7QyVlgn-nWQHaEK&pid=Api&P=0&h=180");
+  background-position: center;
+  background-size: cover;
+}
+
+.Form-input input {
+  padding: 20px;
+  font-size: medium;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+textarea {
+  padding: 40px;
+  font-size: medium;
+  border-radius: 20px;
+}
+button {
+  padding: 20px;
+  width: 100px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  background-color: green;
+  color: white;
+}
